@@ -153,7 +153,8 @@ a { color: inherit; }
 }
 .btn:hover { transform: translateY(-1px); }
 .btn-sm { min-height: 38px; padding: 6px 16px; font-size: 14px; box-shadow: none; }
-/* Apple badge: official artwork, never restyled */
+/* store badges: official artwork, never restyled; gap >= 1/4 badge height (Google clear space) */
+.stores { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px; }
 .badge { display: inline-block; border-radius: 10px; line-height: 0; transition: transform 0.15s ease; }
 .badge:hover { transform: translateY(-1px); }
 .badge img { width: auto; height: 56px; }
